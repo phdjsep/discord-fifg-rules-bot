@@ -107,8 +107,7 @@ client.on('interactionCreate', async interaction => {
       
       // Run the Assistant
       const run = await openai.beta.threads.runs.create(threadId, {
-        assistant_id: ASSISTANT_ID,
-        file_ids: ['vs_67f9c6e99ed48191a6d7cbbeb15ba086']
+        assistant_id: ASSISTANT_ID
       });
       
       // Poll for the response
