@@ -1,0 +1,16 @@
+{
+  "name": "discord-rules-bot",
+  "version": "1.0.0",
+  "description": "A Discord bot that answers questions about rules documents using an LLM",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.13.0",
+    "dotenv": "^16.3.1",
+    "openai": "^4.0.0",
+    "pdf-parse": "^1.1.1",
+    "tiktoken": "^1.0.3"
+  }
+}
