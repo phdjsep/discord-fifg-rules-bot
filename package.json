@@ -1,16 +1,21 @@
 {
-  "name": "discord-rules-bot",
+  "name": "discord-openai-bot",
   "version": "1.0.0",
-  "description": "A Discord bot that answers questions about rules documents using an LLM",
+  "description": "Discord bot that integrates with OpenAI Assistant",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
   "dependencies": {
-    "discord.js": "^14.13.0",
+    "discord.js": "^14.14.1",
     "dotenv": "^16.3.1",
-    "openai": "^4.0.0",
-    "pdf-parse": "^1.1.1",
-    "tiktoken": "^1.0.3"
-  }
+    "openai": "^4.20.1"
+  },
+  "engines": {
+    "node": ">=16.9.0"
+  },
+  "private": true,
+  "author": "",
+  "license": "ISC"
 }
